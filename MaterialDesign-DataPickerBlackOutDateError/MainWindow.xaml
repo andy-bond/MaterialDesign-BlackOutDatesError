@@ -1,0 +1,17 @@
+﻿<Controls:MetroWindow x:Class="MaterialDesign_DataPickerBlackOutDateError.MainWindow"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MaterialDesign_DataPickerBlackOutDateError"
+        mc:Ignorable="d"
+        BorderBrush="{DynamicResource WindowTitleColorBrush}"
+        d:DesignWidth="400" d:DesignHeight="430" ShowTitleBar="True" Height="200" Width="500" ShowCloseButton="True" WindowStartupLocation="CenterScreen" Title="DatePicker Test" BorderThickness="4">
+    <materialDesign:Card VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+        <Grid>
+            <DatePicker VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="24" x:Name="DatePicker_TEST" Focusable="False"></DatePicker>
+        </Grid>
+    </materialDesign:Card>
+</Controls:MetroWindow>
